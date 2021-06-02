@@ -1,14 +1,12 @@
 # Prebuilt APKs
 
-This is a collection of FOSS APKs, coupled with the respective Android.mk for an
-easy integration in the Android build system.
-These are just the official unmodified prebuilt binaries, signed by the
-corresponding developers, except for:
- * com.google.android.maps, as the JAR and the XML have been extracted from the ZIP on the [microG's GitHub release page](https://github.com/microg/android_frameworks_mapsv1/releases)
- * additional_repos.xml, as it is just the microG FDroid repository XML file
+Prebuilt APK to be used with AuroraStore-AuroraDroid
 
-To include them in your build just add their name in CUSTOM_PACKAGES (for
-example in vendor/lineage/config/common.mk).
+This is a collection of FOSS APKs, coupled with the respective Android.mk for an easy integration in the Android build system. These are just the official unmodified prebuilt binaries, signed by the corresponding developers, except for:
+
+    com.google.android.maps, as the JAR and the XML have been extracted from the ZIP on the microG's GitHub release page
+
+To include them in your build just add their name in CUSTOM_PACKAGES (for example in vendor/lineage/config/common.mk).
 
 The included APKs are:
  * FDroid packages (binaries sourced from [here](https://f-droid.org/packages/org.fdroid.fdroid/) and [here](https://f-droid.org/packages/org.fdroid.fdroid.privileged/))
