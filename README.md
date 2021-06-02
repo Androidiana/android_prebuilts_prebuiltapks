@@ -1,4 +1,4 @@
-# Prebuilt APK to be used with AuroraStore-AuroraDroid
+# Prebuilt APK to be used with my AuroraStore-AuroraDroid-AppWarden "FatAurora" branch
 
 This is a collection of FOSS APKs, coupled with the respective Android.mk for an easy integration in the Android build system. These are just the official unmodified prebuilt binaries, signed by the corresponding developers, except for:
 
