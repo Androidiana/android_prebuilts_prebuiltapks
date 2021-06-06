@@ -6,7 +6,7 @@ This is a collection of FOSS APKs, coupled with the respective Android.mk for an
 
 
  Include this repo into your local manifest (path does not matter, suggest prebuilts/SuperFatAurora)
- Specify PRODUCT_PACKAGES += AuroraStore AuroraServices AuroraDroid AppWarden in a 'product' .mk file (not in an Android.mk file like SuperFatAurora.mk)
+ Specify PRODUCT_PACKAGES += AuroraStore AuroraServices AuroraDroid AppWarden eSpeakTTS in a 'product' .mk file (not in an Android.mk file like SuperFatAurora.mk)
  An 'elegant' way to do so without having to fork and track any specific device or vendor repository is to simply create a SuperFatAurora.mk file in directory vendor/extras (or to add the above statement into an existing one).
 
 The included APKs are:
